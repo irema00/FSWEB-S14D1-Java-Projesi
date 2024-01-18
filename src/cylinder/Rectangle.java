@@ -9,15 +9,15 @@ public class Rectangle {
         this.length = Math.max(length, 0);
     }
 
-    public int getWidth() {
+    public double getWidth() {
         return width;
     }
 
-    public int getLength() {
+    public double getLength() {
         return length;
     }
 
-    public int getArea() {
+    public double getArea(){
         return this.width * this.length;
     }
 }

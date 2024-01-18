@@ -10,7 +10,7 @@ public class Cuboid extends Rectangle {
         this.height = Math.max(height, 0);
     }
 
-    public int getVolume() {
+    public double getVolume() {
         return super.getArea() * this.height;
     }
 
