@@ -1,8 +1,8 @@
 package cylinder;
 
 public class Rectangle {
-    private int width;
-    private int length;
+    private final int width;
+    private final int length;
 
     public Rectangle(int width, int length) {
         this.width = Math.max(width, 0);

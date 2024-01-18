@@ -3,7 +3,7 @@ package pool;
 import cylinder.Rectangle;
 
 public class Cuboid extends Rectangle {
-    private int height;
+    private final int height;
 
     public Cuboid(int width, int length, int height) {
         super(width, length);

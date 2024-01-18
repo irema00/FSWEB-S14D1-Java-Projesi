@@ -20,7 +20,7 @@ public class Main {
         System.out.println("cylinder.area= " + cylinder.getArea());
 
         System.out.println("cylinder.volume= " + cylinder.getVolume());
-        ;
+
         System.out.println("*****************");
         Rectangle rectangle = new Rectangle(5, 10);
 
